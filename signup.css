@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@300&family=Orbitron:wght@600&family=Permanent+Marker&family=Poppins:wght@100;200;400;500;600;700&display=swap');
+
+* {
+  font-family: Poppins;
+  text-decoration: none;
+}
+
+body {
+  background-color: white;
+}
+
+img {
+  width: 5%;
+}
+
+@media only screen and (min-width: 250px) {
+
+  .back-button{
+    display: flex;
+    justify-content: left;
+    margin-top: 30px;
+  }
+
+  .back{
+    background-color: white;
+    border: solid 1px rgb(206, 206, 206);
+    font-size: 25px;
+    padding: 0px 8px;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+
+  .card-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0 25px;
+  }
+
+  .card-1-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 50px;
+    margin: 0;
+    padding: 0;  
+  }
+
+  .header h2{
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+  }
+
+  .input_box {
+    text-align: center;
+    border: 1px solid rgb(196, 196, 196);
+    border-radius: 10px;
+    margin-bottom: 25px;
+    position: relative;
+  }
+
+  .input-container {
+    display: flex;
+    align-items: center;
+  }
+
+  .input_box input {
+    width: 90%; /* Adjust the width as needed */;
+    font-size: 16px;
+    padding: 10px 10px;
+    border: none;
+    outline: none;
+  }
+
+  .input_box label {
+    position: absolute;
+    left: -10px;
+    top: -25px;
+    font-size: 13px;
+    font-weight: 500;
+    background-color: white;
+    padding: 0px 10px;
+    pointer-events: none;
+    transition: 0.3s;
+    color: #000000;
+  }
+
+  .eye{
+    opacity: 0.2;
+    margin-right: 15px;
+  }
+
+  .checkboxes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    row-gap: 20px;
+  }
+
+  .checkbox-1{
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+  }
+
+  .details-1 p{
+    padding: 0;
+    margin: 0;
+  }
+
+  .checkbox-2{
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+  }
+
+  .details-2 p{
+    padding: 0;
+    margin: 0;
+  }
+
+  .reports{
+    font-weight: 600;
+  }
+
+  .reports-details{
+    font-weight: 300;
+    font-size: 14px;
+  }
+
+  .switch {
+    position: relative;
+    display: block;
+    width: 50px;
+    height: 30px;
+  }
+  
+  /* Hide default HTML checkbox */
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* The slider */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 20px;
+    width: 21px;
+    left: 2px;
+    bottom: 5px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #000000;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #000000;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(21px);
+    -ms-transform: translateX(25px);
+    transform: translateX(24px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+
+  .signup{
+    color: white;
+    background-color:  #0d261e;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 15px 50px;
+    border-radius: 30px;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    outline: none;
+    border: none;
+    transition: all 0.2s ease;
+  }
+
+  .signup:hover{
+    background-color: #0d261e;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    transform: scale(1.05);
+  }
+
+  .input{
+    display: flex;
+    justify-content: center;
+  }
+
+  .card-footer{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .login{
+    color: #e64646;
+  }
+}

@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@300&family=Orbitron:wght@600&family=Permanent+Marker&family=Poppins:wght@100;200;400;500;600&display=swap');
+
+* {
+  font-family: Poppins;
+  text-decoration: none;
+}
+
+body {
+  background-color: rgb(226, 213, 213);
+}
+
+img {
+  width: 7%;
+}
+
+@media only screen and (min-width: 250px) {
+  .card-1 {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  .card-1-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 50px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    padding-top: 150px;
+  }
+
+  .header h2 {
+    font-size: 64px;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+  }
+
+  .header p {
+    font-size: 15px;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+  }
+
+  .form {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .input_box {
+    text-align: center;
+    border: 1px solid rgb(196, 196, 196);
+    border-radius: 10px;
+    margin-bottom: 25px;
+    position: relative;
+  }
+
+  .input-container {
+    display: flex;
+    align-items: center;
+  }
+
+  .input_box input {
+    width: 90%; /* Adjust the width as needed */
+    font-size: 16px;
+    padding: 10px 10px;
+    border: none;
+    outline: none;
+  }
+
+  .input_box label {
+    position: absolute;
+    left: 8px;
+    top: -12px;
+    font-size: 13px;
+    font-weight: 300;
+    background-color: white;
+    padding: 0px 10px;
+    pointer-events: none;
+    transition: 0.3s;
+    color: #cecece;
+  }
+
+  .user {
+    margin-left: 5px;
+  }
+
+  .login{
+    color: white;
+    background-color:  #0d261e;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 15px 50px;
+    border-radius: 30px;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    outline: none;
+    border: none;
+    transition: all 0.2s ease;
+  }
+
+  .login:hover{
+    color: white;
+    background-color: #30866b;
+    border-radius: 30px;
+    padding: 15px 50px;
+  }
+
+  .input{
+    display: flex;
+    justify-content: center;
+  }
+
+  .card-foot{
+    padding-top: 150px;
+    padding-bottom: 100px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+
+  .signup{
+    color: #e64646;
+  }
+
+  
+}

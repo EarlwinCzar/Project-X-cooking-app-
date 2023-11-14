@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@300&family=Orbitron:wght@600&family=Permanent+Marker&family=Poppins:wght@100;200;400;500;600;700&display=swap');
+
+*{
+  font-family: Poppins;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  height: 100vh;
+  margin: 0;
+}
+
+@media only screen and (min-width: 250px){
+
+  .card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .card-container{
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 30px;
+  }
+
+  img{
+    width: 30%;
+  }
+
+  .image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card-detail{
+    font-weight: 400;
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .card-detail p{
+    color: rgb(168, 168, 168);
+  }
+
+  .continue{
+    color: white;
+    background-color:  #0d261e;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 15px 40px;
+    border-radius: 30px;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    outline: none;
+    border: none;
+    transition: all 0.2s ease;
+  }
+
+  .continue:hover{
+    background-color: #0d261e;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    transform: scale(1.05);
+  }
+}
